@@ -1,0 +1,62 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  
+  
+  
+}
+
+.nav ul{
+  background-color: rgb(63, 5, 17);
+	display: flex;
+	border-style: solid;
+  border-color: rgb(53, 52, 52);
+  border-radius: 1pc;
+	justify-content: center;
+	text-align: center;
+  
+}
+.nav li {
+	padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #f3b2da !important;
+	min-width: 80px;
+	margin: auto;
+}
+
+.nav li:hover {
+ 
+  background-size: 100% 100%;
+  color: #27262c !important;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #f3bfe2;
+	font-weight: bold;
+}
+.nav li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+

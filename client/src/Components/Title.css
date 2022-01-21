@@ -1,0 +1,24 @@
+.title {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+
+}
+.title h1 {
+    color: crimson;
+    font-style: inherit;
+    font-family: fantasy;
+    font-variant: small-caps;
+}
+.title button {
+    background-color: rgb(63, 5, 17);
+    width: 50%;
+    
+}
+
+.title button:hover {
+    background-color: crimson;
+    pointer-events: stroke;
+}
+
